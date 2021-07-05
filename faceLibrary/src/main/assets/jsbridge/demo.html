@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="content-type">
+        <title>
+            js调用java
+        </title>
+    </head>
+
+    <body>
+
+        <p>
+            <xmp id="show">
+            </xmp>
+        </p>
+
+        <p>
+            <xmp id="init"></xmp>
+        </p>
+
+        <p>
+            <input type="button" id="enter" value="人脸对比" onclick="testClick();"/>
+        </p>
+
+        <p>
+          <input type="button" id="enter1" value="人脸录入" onclick="testClick1();"/>
+        </p>
+
+        <p>
+            <input type="button" id="enter2" value="人脸识别" onclick="testDiv();" />
+        </p>
+
+    </body>
+    <script>
+
+        function testDiv() {
+             window.android.commonButtonEvent("");
+        }
+
+        function testClick() {
+           window.android.commonButtonEvent("人脸对比");
+        }
+
+        function testClick1() {
+           window.android.commonButtonEvent("人脸录入");
+        }
+
+    </script>
+
+</html>

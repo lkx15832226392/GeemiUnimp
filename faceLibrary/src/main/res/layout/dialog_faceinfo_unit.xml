@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ResourceName">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/enabled_color"
+        app:cardCornerRadius="@dimen/sp_16"
+        app:cardElevation="6dp"
+        app:cardMaxElevation="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+            <com.allen.library.SuperTextView
+                android:id="@+id/dialog_text_title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                app:sLeftTextString="取消"
+                app:sRightTextString="确定"
+                app:sCenterTextColor="@color/black"
+                app:sCenterTextSize="@dimen/sp_12"
+                app:sCenterTextString="选择所属单位"
+                app:sLeftTextSize="@dimen/sp_12"
+                app:sRightTextSize="@dimen/sp_12"
+                app:sLeftTextColor="@color/black"
+                app:sRightTextColor="@color/black"
+                app:sDividerLineType="none"
+                app:sShapeSelectorNormalColor="@color/white"
+                app:sShapeSelectorPressedColor="@color/white"
+                app:sUseShape="true" />
+
+            <com.zyyoona7.wheel.WheelView
+                android:id="@+id/wheelview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</layout>

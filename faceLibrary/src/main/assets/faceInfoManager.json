@@ -1,0 +1,70 @@
+{
+  "returnCode": 0,
+  "version": 0,
+  "faceThumbnail": "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fcaifang.china.com.cn%2Fimages%2Fattachement%2Fjpg%2Fsite562%2F20150810%2Fd43d7e14de2d173243fb2e.jpg&refer=http%3A%2F%2Fcaifang.china.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623234405&t=e1d22122c7160087ea0baa0902de68b1",
+  "faceInfoData": [
+    {
+      "faceInfoId": 1,
+      "faceLeftTextString":"姓名",
+      "faceCenterTextString":"请刷身份证",
+      "faceRightTextString":"",
+      "faceIsEnabled": "true"
+    },
+    {
+      "faceInfoId": 2,
+      "faceLeftTextString":"年龄",
+      "faceCenterTextString":"",
+      "faceRightTextString":"",
+      "faceIsEnabled": "true"
+    },
+    {
+      "faceInfoId": 8,
+      "faceLeftTextString":"性别",
+      "faceCenterTextString":"",
+      "faceRightTextString":"",
+      "faceIsEnabled": "false"
+    },
+    {
+      "faceInfoId": 9,
+      "faceLeftTextString":"住址",
+      "faceCenterTextString":"",
+      "faceRightTextString":"",
+      "faceIsEnabled": "true"
+    },
+    {
+      "faceInfoId": 3,
+      "faceLeftTextString":"所属单位",
+      "faceCenterTextString":"请选择",
+      "faceRightTextString":"",
+      "faceIsEnabled": "false"
+    },
+    {
+      "faceInfoId": 7,
+      "faceLeftTextString":"所属班组",
+      "faceCenterTextString":"请选择",
+      "faceRightTextString":"",
+      "faceIsEnabled": "false"
+    },
+    {
+      "faceInfoId": 4,
+      "faceLeftTextString":"工种",
+      "faceCenterTextString":"请选择",
+      "faceRightTextString":"",
+      "faceIsEnabled": "false"
+    },
+    {
+      "faceInfoId": 5,
+      "faceLeftTextString":"手机号",
+      "faceCenterTextString":"",
+      "faceRightTextString":"",
+      "faceIsEnabled": "true"
+    },
+    {
+      "faceInfoId": 6,
+      "faceLeftTextString":"身份证号",
+      "faceCenterTextString":"请刷身份证",
+      "faceRightTextString":"",
+      "faceIsEnabled": "true"
+    }
+  ]
+}

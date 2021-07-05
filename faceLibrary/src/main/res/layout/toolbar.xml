@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.allen.library.SuperTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/super_text"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_40"
+    app:sCenterTextColor="@color/white"
+    app:sCenterTextSize="14sp"
+    app:sCenterTextString="人脸对比"
+    app:sCenterMaxEms="14"
+    app:sCenterTvDrawableRight="@mipmap/abc_spinner_mtrl_am_alpha"
+    app:sDividerLineColor="#252A44"
+    app:sDividerLineType="bottom"
+    app:sLeftIconHeight="20dp"
+    app:sLeftIconRes="@mipmap/ic_menu_white_24dp"
+    app:sLeftIconWidth="20dp"
+    app:sShapeSelectorNormalColor="@color/blue_sharder_toobar"
+    app:sShapeSelectorPressedColor="@color/blue_sharder_toobar"
+    app:sUseRipple="false"
+    app:sUseShape="true" />

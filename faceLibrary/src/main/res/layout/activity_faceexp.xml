@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/face_bj"
+        android:orientation="vertical">
+        <com.allen.library.SuperTextView
+            android:id="@+id/text_face_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:sCenterTextColor="@color/white"
+            app:sCenterTextSize="14sp"
+            app:sCenterTextString="人脸对比"
+            app:sDividerLineColor="#252A44"
+            app:sDividerLineType="bottom"
+            app:sLeftIconHeight="20dp"
+            app:sLeftIconRes="@mipmap/back"
+            app:sLeftIconWidth="20dp"
+            app:sUseRipple="false" />
+        <Button
+            android:id="@+id/btn_huidiao"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="回调成功数据"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/btn_error"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="回调失败数据"
+            android:visibility="gone"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_10"
+            >
+            <include
+                android:id="@+id/include_faceexp"
+                layout="@layout/includ_activity_faceexp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include
+                android:id="@+id/include_progress"
+                layout="@layout/includ_activity_progress" />
+        </RelativeLayout>
+    </LinearLayout>
+</layout>

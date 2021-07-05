@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ResourceName">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_10"
+        >
+        <com.allen.library.SuperTextView
+            android:id="@+id/order_popup_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            app:sCenterTextString="工种选择"
+            app:sCenterTextSize="@dimen/sp_12"
+            app:sDividerLineType="none"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#f7f5f6"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edit_searchView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="26dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:drawablePadding="5dp"
+                    android:hint="搜索工种"
+                    android:paddingLeft="7dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/text_color"
+                    android:textSize="12sp"
+                    tools:ignore="RtlCompat" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginEnd="8dp"
+                    android:src="@mipmap/base_gray_cancle"
+                    tools:ignore="RtlCompat" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            />
+
+    </LinearLayout>
+</layout>

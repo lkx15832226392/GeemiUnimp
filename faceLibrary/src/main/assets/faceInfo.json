@@ -1,0 +1,56 @@
+{
+  "returnCode": 0,
+  "version": 0,
+  "faceThumbnail": "sfzf",
+  "faceInfoData": [
+    {
+      "faceInfoID": 1,
+      "faceLeftTextString":"姓名",
+      "faceCenterTextString":"请刷身份证",
+      "faceRightTextString":"在线",
+      "faceIsEnabled": "false"
+    },
+    {
+      "faceInfoID": 2,
+      "faceLeftTextString":"年龄",
+      "faceCenterTextString":"请输入",
+      "faceRightTextString":"",
+      "faceIsEnabled": "false"
+    },
+    {
+      "faceInfoID": 3,
+      "faceLeftTextString":"所属单位",
+      "faceCenterTextString":"请选择",
+      "faceRightTextString":"",
+      "faceIsEnabled": "false"
+    },
+    {
+      "faceInfoID": 4,
+      "faceLeftTextString":"工种",
+      "faceCenterTextString":"请选择",
+      "faceRightTextString":"",
+      "faceIsEnabled": "false"
+    },
+    {
+      "faceInfoID": 5,
+      "faceLeftTextString":"手机号",
+      "faceCenterTextString":"请输入",
+      "faceRightTextString":"",
+      "faceIsEnabled": "false"
+    },
+    {
+      "faceInfoID": 6,
+      "faceLeftTextString":"身份证号",
+      "faceCenterTextString":"请刷身份证",
+      "faceRightTextString":"",
+      "faceIsEnabled": "false"
+    },
+    {
+      "faceInfoID": 7,
+      "faceLeftTextString":"打卡日期",
+      "faceCenterTextString":"2021年4月28日",
+      "faceRightTextString":"",
+      "faceIsEnabled": "false"
+    }
+  ]
+}

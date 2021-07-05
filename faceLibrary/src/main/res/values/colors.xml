@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="item_main_color">#ffffff</color>
+    <color name="item_main_color_selected">#63B8FF</color>
+
+    <color name="item_main_text_color">#63B8FF</color>
+    <color name="item_main_text_color_selected">#ffffff</color>
+
+    <color name="home_text_color_black">#000000</color>
+    <color name="home_text_color_white">#ffffff</color>
+    <color name="home_text_color_skyblue">#00BAF2</color>
+    <color name="homr_text_color_grey">#999999</color>
+
+    <color name="collect_bottom_color">#CCCCCC</color>
+    <color name="agreement_content_color">#555555</color>
+
+    <color name="setting_quality_enter">#9EA0A3</color>
+    <color name="setting_quality_grey">#DCDDE0</color>
+    <color name="setting_quality_blue">#00BAF2</color>
+
+
+    <color name="main">#1F242E</color>
+    <color name="divider">#ffd2d2d2</color>
+
+
+    <color name="blue_sharder_toobar">#1186d7</color>
+    <!--定位圈波纹颜色-->
+    <color name="blue_sharder">#1F242E</color>
+    <color name="setting2_color">#3B86F0</color>
+    <!--黑色半透明-->
+    <color name="color_dark_transparent">#88333333</color>
+    <color name="colorStart">#CE413A</color>
+    <color name="colorEnd">#F78AE0</color>
+    <color name="loginBackground">#eff4ee</color>
+
+    <color name="setting_textcolor1">#333333</color>
+    <color name="setting_textcolor11">#ffd6aa</color>
+    <color name="gray_btn">#dde2dc</color>
+
+    <color name="select_color">#2e2e32</color>
+    <color name="setting1_color">#999999</color>
+
+    <color name="text_color">#6b6b6b</color>
+    <color name="text_color2">#7e8285</color>
+
+
+    <color name="xian">#424141</color>
+
+    <color name="background">#f7f5f6</color>
+
+    <color name="enabled_color">#eef3ed</color>
+
+    <color name="background_color">#f2f2f2</color>
+    <color name="background_color1">#fafafa</color>
+
+    <color name="dividers">#1f000000</color>
+
+    <color name="powerNaviTitle_color">#252831</color>
+
+    <color name="face_bj">@color/blue_sharder</color>
+
+</resources>

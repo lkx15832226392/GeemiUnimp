@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.allen.library.SuperTextView
+        android:id="@+id/item_stpText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:sUseRipple="false"
+        app:sDividerLineColor="#424141"
+        app:sDividerLineHeight="0.5dp"
+        app:sLeftTextString="姓名阿萨"
+        app:sCenterTextString="张三"
+        app:sLeftTextSize="12sp"
+        app:sCenterTextSize="12sp"
+        app:sRightTextSize="12sp"
+        app:sLeftTextColor="@color/setting1_color"
+        app:sRightTextColor="@color/setting2_color"
+        app:sCenterTextColor="@color/white"
+        />
+</LinearLayout>

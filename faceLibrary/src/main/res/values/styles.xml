@@ -1,0 +1,84 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="ScanThemeTranslucent" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="DefaultDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="Theme_NoTitle" parent="android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <style name="Theme_Translucent" parent="android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <style name="Theme_Fullscreen" parent="android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="TipDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!--superBtn-->
+    <style name="superBtn_text" tools:ignore="NewApi" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:enabled">false</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="sSelectorDisableColor">@color/gray_btn</item>
+        <item name="sSelectorNormalColor">@color/setting2_color</item>
+        <item name="sSelectorPressedColor">@color/gray_btn</item>
+        <item name="sUseSelector">true</item>
+    </style>
+
+    <style name="superText" tools:ignore="NewApi" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="sUseRipple">true</item>
+        <item name="sDividerLineColor">@color/xian</item>
+        <item name="sDividerLineHeight">0.5dp</item>
+        <item name="sLeftTextSize">12sp</item>
+        <item name="sCenterTextSize">12sp</item>
+        <item name="sLeftTextColor">@color/setting1_color</item>
+        <item name="sCenterTextColor">@color/white</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:background="@color/blue_sharder">
+        <com.allen.library.SuperTextView
+            android:id="@+id/hand_ar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:sLeftIconRes="@mipmap/back"
+            app:sCenterTextColor="@color/white"
+            app:sCenterTextSize="@dimen/sp_12"
+            app:sRightIconRes="@mipmap/ar_down"
+            app:sDividerLineType="none"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

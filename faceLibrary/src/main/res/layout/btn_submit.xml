@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ResourceName">
+    <com.allen.library.SuperButton
+        android:id="@+id/superSubmin"
+        android:layout_height="50dp"
+        app:sCornersRadius="50dp"
+        android:text="下一步"
+        style="@style/superBtn_text"
+        />
+</layout>

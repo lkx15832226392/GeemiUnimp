@@ -1,0 +1,4 @@
+include ':library'
+include ':faceLibrary'
+include ':app'
+rootProject.name = "My Application"

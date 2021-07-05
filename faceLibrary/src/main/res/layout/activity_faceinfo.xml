@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/face_bj"
+        >
+        <com.allen.library.SuperTextView
+            android:id="@+id/text_face_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:sCenterTextColor="@color/white"
+            app:sCenterTextSize="14sp"
+            app:sCenterTextString="人脸对比"
+            app:sDividerLineColor="#252A44"
+            app:sDividerLineType="bottom"
+            app:sLeftIconHeight="20dp"
+            app:sLeftIconRes="@mipmap/back"
+            app:sLeftIconWidth="20dp"
+            app:sUseRipple="false" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/faceexp_cardView_left"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            app:cardBackgroundColor="#383B47"
+            app:cardCornerRadius="@dimen/dp_10"
+            android:layout_gravity="center"
+            app:cardMaxElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/faceexp_image_left"
+                android:layout_width="270dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dp_10"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/aaws" />
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp_10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.allen.library.SuperTextView
+                    android:id="@+id/super_text_name"
+                    style="@style/superText"
+                    app:sCenterTextString="张三"
+                    app:sLeftTextString="姓名" />
+
+                <com.allen.library.SuperTextView
+                    android:id="@+id/super_text_idCard"
+                    style="@style/superText"
+                    app:sCenterTextString="123132132465464541354165"
+                    app:sLeftTextString="身份证号" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_40"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:text="手机号"
+                        android:textColor="@color/setting1_color"
+                        android:textSize="@dimen/sp_12" />
+
+                    <EditText
+                        android:id="@+id/edit_text_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_marginRight="60dp"
+                        android:background="@null"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:hint="请输入"
+                        android:paddingLeft="7dp"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@color/xian" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_40"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:text="年龄"
+                        android:textColor="@color/setting1_color"
+                        android:textSize="@dimen/sp_12" />
+
+                    <EditText
+                        android:id="@+id/edit_text_age"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_marginRight="60dp"
+                        android:background="@null"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:hint="请输入"
+                        android:paddingLeft="7dp"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textSize="12sp" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@color/xian" />
+
+                <com.allen.library.SuperTextView
+                    android:id="@+id/super_text_type"
+                    style="@style/superText"
+                    app:sCenterTextString="请选择"
+                    app:sLeftTextString="工种" />
+
+                <com.allen.library.SuperTextView
+                    android:id="@+id/super_text_unit"
+                    style="@style/superText"
+                    app:sCenterTextString="请选择"
+                    app:sLeftTextString="所属单位" />
+
+            </LinearLayout>
+
+
+            <com.allen.library.SuperButton
+                android:id="@+id/superSubmin"
+                style="@style/superBtn_text"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:text="下一步"
+                app:sCornersRadius="50dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</layout>
